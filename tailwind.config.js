@@ -14,6 +14,9 @@ module.exports = {
         "light-blue": "#71C6F9",
         "dark-gray": "#333333",
       },
+      inset: {
+        neg: -2,
+      },
     },
   },
   plugins: [],

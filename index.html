@@ -5,14 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/styles.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>TailwindCss website cloning</title>
 </head>
 
 <body class="font-roboto">
-    <h1 className="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <div>
+        <!-- header -->
+        <header>
+            <div>
+                <a href="#" class="text-2xl font-bold text-gray-800"><img src='./images/images/logo.svg'
+                        alt='logo' /></a>
+                <ul class="flex">
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <span><i class="fa-solid fa-bars fill-red-700"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- nav -->
+        <nav></nav>
+        <!-- main -->
+        <main class="">
+            <!-- banner  -->
+            <div class="h-screen grid sm:grid-cols-[1fr_1fr_auto]  ">
+                <div
+                    class=" flex-grow   relative  bg-orange bg-[url('/images/images//outline.png')] bg-center bg-cover bg-no-repeat">
+
+                    <div class="pt-10 pl-10 pb-5 sm:col-span-2">
+                        <div class="h-1 max-w-8 mb-2 bg-white"></div>
+                        <div>
+                            <h2 class="text-white text-3xl font-medium">
+                                Dynamic learning,
+                                <br />
+                                <span class="font-normal">distinctive experience</span>
+                            </h2>
+                        </div>
+                        <div
+                            class="px-4 pb-3 absolute bg-white bottom-0  text-dark-gray py-1 border-b-4 border-b-dark-gray">
+                            <a href='#'>Find
+                                out more about postgraduate study</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class=" sm:col-span-1 bg-[url('/images/images/Students-in-the-library.jpg')]  bg-cover   bg-no-repeat bg-center  sm:h-full ">
+                </div>
+                <div
+                    class="col-span-full  sm:col-auto  h-4 w-full sm:bg-cover border-2 bg-center sm:w-6 sm:h-full block bg-no-repeat  bg-[url('/images/images/collage_desktop.png')] bg-cover ">
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>
