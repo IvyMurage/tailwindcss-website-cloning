@@ -15,22 +15,26 @@
     <div>
         <!-- header -->
         <header>
-            <div>
-                <a href="#" class="text-2xl font-bold text-gray-800"><img src='./images/images/logo.svg'
-                        alt='logo' /></a>
-                <ul class="flex">
-                    <li>
-                        <span>
-                            <i class="fa-solid fa-graduation-cap"></i>
+            <div class="mx-12 flex justify-between h-20 items-center">
+                <a href="#"><img src='./images/images/logo.svg' alt='logo' /></a>
+                <ul class="flex  h-full gap-4 items-center ">
+                    <li class="h-full flex px-2 hover:bg-dark-gray   items-center  ">
+                        <span class=" flex items-center gap-2 ">
+                            <i class="fa-solid fa-graduation-cap block text-lg text-light-gray"></i>
+                            <a href="#" class="text-dark-gray  ">Students & Stuff</a>
                         </span>
                     </li>
-                    <li>
-                        <span>
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                    <li class="h-full flex px-2 hover:bg-dark-gray   items-center  ">
+                        <span class=" flex items-center gap-2 ">
+                            <i class="fa-solid fa-magnifying-glass  block text-lg text-light-gray"></i>
+                            <a href="#" class="text-dark-gray block">Search</a>
                         </span>
                     </li>
-                    <li>
-                        <span><i class="fa-solid fa-bars fill-red-700"></i></span>
+                    <li class="h-full hover:bg-dark-gray px-2   flex items-center  ">
+                        <span class=" flex items-center gap-2">
+                            <i class="fa-solid fa-bars block text-lg text-light-gray "></i>
+                            <a href="#" class="text-dark-gray block">Menu</a>
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -43,19 +47,19 @@
             <!-- banner  -->
             <div class="h-screen grid sm:grid-cols-[1fr_1fr_auto]  ">
                 <div
-                    class=" flex-grow   relative  bg-orange bg-[url('/images/images//outline.png')] bg-center bg-cover bg-no-repeat">
+                    class=" sm:flex sm:flex-col sm:items-end sm:justify-center   relative  bg-orange bg-[url('/images/images//outline.png')] bg-center bg-cover bg-no-repeat">
 
-                    <div class="pt-10 pl-10 pb-5 sm:col-span-2">
+                    <div class="pt-10 sm:w-[80%] pl-10 pb-5  p  sm:col-span-2">
                         <div class="h-1 max-w-8 mb-2 bg-white"></div>
-                        <div>
-                            <h2 class="text-white text-3xl font-medium">
+                        <div class="pr-5">
+                            <h2 class="text-white text-6xl font-medium">
                                 Dynamic learning,
                                 <br />
-                                <span class="font-normal">distinctive experience</span>
+                                <span class="font-light">distinctive experience</span>
                             </h2>
                         </div>
                         <div
-                            class="px-4 pb-3 absolute bg-white bottom-0  text-dark-gray py-1 border-b-4 border-b-dark-gray">
+                            class="px-4 pb-3 absolute sm:relative sm:mt-10 sm:w-fit bg-white bottom-0  text-dark-gray py-1 border-b-4 border-b-dark-gray">
                             <a href='#'>Find
                                 out more about postgraduate study</a>
                         </div>
@@ -66,7 +70,70 @@
                     class=" sm:col-span-1 bg-[url('/images/images/Students-in-the-library.jpg')]  bg-cover   bg-no-repeat bg-center  sm:h-full ">
                 </div>
                 <div
-                    class="col-span-full  sm:col-auto  h-4 w-full sm:bg-cover border-2 bg-center sm:w-6 sm:h-full block bg-no-repeat  bg-[url('/images/images/collage_desktop.png')] bg-cover ">
+                    class="col-span-full  sm:col-auto  h-4 w-full sm:bg-cover bg-center sm:w-6 sm:h-full block bg-no-repeat  bg-[url('/images/images/collage_desktop.png')] bg-cover ">
+                </div>
+            </div>
+
+            <!-- student section -->
+            <div>
+                <!-- grid div -->
+                <div class="grid sm:grid-cols-4 relative ">
+                    <div class="sm:col-span-1 absolute  sm:col-start-4">
+                        <div>
+                            <div></div>
+                            <div class="">
+                                <p>With world-leading research and high-quality teaching, we offer undergraduate and
+                                    postgraduate degrees in the arts, humanities, social sciences, business, and
+                                    computing from our campus in South East London.</p>
+                            </div>
+                            <span class="">About Goldsmiths</span>
+                        </div>
+                    </div>
+                    <div class=" grid grid-col-2 sm:row-start-1 sm:row-end-4  sm:col-span-2">
+                        <div class=" col-span-2">
+                            <img alt="A student drawing on a tablet."
+                                src="./images/images/Students-outside-the-CCA_19427-(1).jpg">
+
+                        </div>
+                        <div class="teaser__panel inset">
+
+                            <h3 class="">Live like a local</h3>
+                            <div class="">
+                                <p>Find out more about life on our campus, including accommodation information
+                                    and local area hints and tips.</p>
+                            </div>
+                            <span class="">Discover more about life on campus</span>
+                        </div>
+                    </div>
+                    <div class="col-span-1 col-start-3 row-start-1">
+                        <div class="teaser__panel">
+                            <div class="teaser__type-wrapper">
+                                <span class="teaser__type"></span>
+                            </div>
+                            <h3 class="teaser__title">Study at Goldsmiths</h3>
+                            <div class="teaser__body">
+                                <p>Explore our guide to studying at Goldsmiths.</p>
+                            </div>
+                            <span class="teaser__action">Studying at Goldsmiths</span>
+                        </div>
+                    </div>
+
+                    <div class="col-span-2 col-start-3">
+                        <div class="teaser__image-wrapper">
+                            <div class="">
+                                <img alt="A student drawing on a tablet." src="/images/images/Scholarship_homepage.jpg">
+                            </div>
+                        </div>
+                        <div class="teaser__panel inset">
+                            <div class="teaser__type-wrapper">
+                            </div>
+                            <h3 class="teaser__title">Explore our range of scholarships, bursaries and fee waivers that
+                                can help support your studies</h3>
+                            <div class="teaser__body">
+                            </div>
+                            <span class="teaser__action">Scholarships finder</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
