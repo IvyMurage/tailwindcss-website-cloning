@@ -13,6 +13,7 @@ module.exports = {
         "light-gray": "#AFAFAF",
         "light-bluee": "#71C6F9",
         "dark-gray": "#333333",
+        "secondary-gray": "#f1f2f2",
       },
       inset: {
         neg: -2,
