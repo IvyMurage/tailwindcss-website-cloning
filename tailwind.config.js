@@ -11,7 +11,7 @@ module.exports = {
         orange: "#FF5800",
         white: "#FFFFFF",
         "light-gray": "#AFAFAF",
-        "light-blue": "#71C6F9",
+        "light-bluee": "#71C6F9",
         "dark-gray": "#333333",
       },
       inset: {
