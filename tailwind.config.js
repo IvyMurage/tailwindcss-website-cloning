@@ -17,6 +17,11 @@ module.exports = {
       },
       inset: {
         neg: -2,
+        "neg10px": "-10px",
+      },
+      borderWidth: {
+        1: "1px",
+        3: "3px",
       },
     },
   },
