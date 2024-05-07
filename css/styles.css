@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .span-btn {
+        @apply text-gray-500 text-center flex items-center justify-center text-sm before:content-[''] before:inline-block before:relative before:top-0 before:bg-[url('/images/images/icon-calendar-999.svg')] before:w-4 before:mr-2 before:h-4 before:bg-cover
+    }
+}

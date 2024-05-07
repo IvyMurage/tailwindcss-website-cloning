@@ -12,7 +12,7 @@
 </head>
 
 <body class="font-roboto">
-    <div class=" bg-secondary-gray">
+    <div class=" bg-secondary-gray h-full">
         <!-- header -->
         <header>
             <div class="mx-12 flex justify-between h-20 items-center">
@@ -40,16 +40,14 @@
             </div>
         </header>
 
-        <!-- nav -->
-        <nav></nav>
         <!-- main -->
         <main class="">
             <!-- banner  -->
-            <div class="h-screen grid sm:grid-cols-[1fr_1fr_auto]  ">
+            <div class="sm:h-screen grid sm:grid-cols-[1fr_1fr_auto]  ">
                 <div
                     class=" sm:flex sm:flex-col sm:items-end sm:justify-center   relative  bg-orange bg-[url('/images/images//outline.png')] bg-center bg-cover bg-no-repeat">
 
-                    <div class="pt-10 sm:w-[80%] pl-10 pb-5  p  sm:col-span-2">
+                    <div class="pt-10 sm:w-[80%] pl-10 pb-5  sm:col-span-2">
                         <div class="h-1 max-w-8 mb-2 bg-white"></div>
                         <div class="pr-5">
                             <h2 class="text-white text-6xl font-medium">
@@ -77,9 +75,9 @@
             <!-- student section -->
             <div class="m-10">
                 <!-- grid div -->
-                <div class="grid sm:grid-cols-4 gap-[22px] relative  ">
+                <div class="sm:grid  sm:grid-cols-4 sm:gap-[22px] relative  ">
                     <div
-                        class="sm:col-span-1 relative justify-evenly  w-full px-8 flex flex-col  sm:mt-[-160px]   bg-white  sm:col-start-4">
+                        class="sm:col-span-1 relative justify-evenly  w-full px-7 flex flex-col  sm:mt-[-160px]   bg-white  sm:col-start-4">
                         <div class="w-14 m-auto  h-3  bg-yellow"></div>
                         <div class="pt-2 pb-[35px] text-sm  border-b-2">
                             <h3 class="text-lg mt-4 px-10 pb-3 text-center font-medium">Goldsmiths, University of London
@@ -116,7 +114,7 @@
                         </div>
                     </div>
                     <div class="col-span-1   bg-white col-start-3 row-start-1">
-                        <div class="px-7">
+                        <div class="px-8">
 
                             <h3 class="text-lg mt-4 text-center font-medium">Study at Goldsmiths</h3>
                             <div class="pt-2 pb-[35px] text-sm  border-b-2">
@@ -133,13 +131,14 @@
                         <div>
                             <img alt="A student drawing on a tablet." src="/images/images/Scholarship_homepage.jpg">
                         </div>
-                        <div class="sm:absolute bottom-0 border-b-2 right-0 px-7 pt-1 sm:w-1/2 bg-white">
-                            <h3 class="text-lg mt-4 text-center font-medium">Explore our range of scholarships,
+                        <div class="sm:absolute bottom-0 right-0 px-7 pt-1 sm:w-1/2 bg-white">
+                            <h3 class="text-lg pb-4 border-b-2 mt-4 text-center font-medium">Explore our range of
+                                scholarships,
                                 bursaries and
                                 fee waivers that
                                 can help support your studies</h3>
                             <div class=" flex justify-between items-center ">
-                                <span class="text-sm text-light-bluee py-4">Scholarships finder</span>
+                                <span class="text-sm text-light-blue py-4">Scholarships finder</span>
                                 <img src="./images/images/icon-more-666.svg" alt="arrow-right" class="">
                             </div>
                         </div>
@@ -171,7 +170,7 @@
                                                 <input class="bg-transparent w-full block" type="text" id="search"
                                                     name="search">
                                             </div>
-                                            <input class="px-8 py-2 text-black block bg-yellow" type="submit"
+                                            <input class="px-7 py-2 text-black block bg-yellow" type="submit"
                                                 value="Search">
                                         </div>
 
@@ -181,27 +180,35 @@
                         </div>
                     </div>
 
-                    <div class="sm:col-span-2 relative">
-                        <div>
-                            <img src="./images/images/VRLatham.jpg" alt="students in the library">
-                        </div>
-                        <div class="sm:absolute bottom-0 right-0 px-7 pt-1 sm:w-1/2 bg-white">
-                            <h3 class="text-lg pb-4 border-b-2  mt-4 text-center font-medium">Explore our range of
-                                scholarships,
-                                Research which changes the world</h3>
+                    <div class="sm:col-span-2 bg-[url('/images/images/VRLatham.jpg')] bg-no-repeat bg-cover  relative">
+                        <div class="sm:absolute bottom-6 right-0 px-7 pt-1 sm:w-1/2 bg-white">
+                            <h3 class="text-lg pb-4 border-b-2  mt-4 text-center font-medium">Research which changes the
+                                world</h3>
                             <div class=" flex justify-between items-center ">
                                 <span class="text-sm text-light-bluee mt-2 py-4">Case Studies</span>
                                 <img src="./images/images/icon-more-666.svg" alt="arrow-right" class="">
                             </div>
                         </div>
                     </div>
-                    <div class=" bg-white">
-                        <div class="">
-                            <img src="./images/images/Annie-Mac-edit.jpg" alt="annie-mac">
+                    <div class=" bg-white  grid grid-rows-2">
+                        <div class="bg-[url('/images/images/Annie-Mac-edit.jpg')] bg-no-repeat bg-cover">
                         </div>
 
                         <div class=" m-[-10px_10px_0px_10px] relative  flex flex-col right-0 px-7 pt-1  bg-white">
-                            <h3 class="text-lg mt-4 text-center font-medium pb-4 border-b-2">Major funding for a
+                            <h3 class="text-lg mt-4 text-center font-medium pb-4 border-b-2">Research shapes House of
+                                Commons Women and Equalities Committee report on misogyny in music</h3>
+                            <div class=" flex justify-between items-center mt-2 ">
+                                <span class="text-sm text-light-bluee py-4">Misogyny in music</span>
+                                <img src="./images/images/icon-more-666.svg" alt="arrow-right" class="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white grid grid-rows-2">
+                        <div class="bg-[url('/images/images/Daniel-and-John-edit.jpg')] bg-no-repeat bg-cover">
+                        </div>
+                        <div class=" m-[-10px_10px_0px_10px]  relative px-7 pt-1  bg-white">
+                            <h3 class="text-lg mt-4 text-center pb-4 border-b-2 font-medium">Major funding for a
                                 ground-breaking
                                 initiative aimed at redefining our understanding of hearing</h3>
                             <div class=" flex justify-between items-center mt-2 ">
@@ -210,63 +217,37 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="bg-white">
-                        <div class="">
-                            <img src="./images/images/Daniel-and-John-edit.jpg" alt="annie-mac">
-                        </div>
-
-                        <div class=" m-[-10px_10px_0px_10px]  relative px-7 pt-1  bg-white">
-                            <h3 class="text-lg mt-4 text-center pb-4 border-b-2 font-medium">Finding Aid, featuring new
-                                and existing
-                                paintings by Matt Connors and invited artists</h3>
-                            <div class=" flex justify-between items-center mt-2 ">
-                                <span class="text-sm text-light-bluee py-4">Goldsmiths CCA</span>
-                                <img src="./images/images/icon-more-666.svg" alt="arrow-right" class="">
-                            </div>
-                        </div>
-                    </div>
                     <div class=" grid grid-rows-2">
-                        <div class="">
-                            <img src="./images/images/matt-connors-960.jpg" alt="annie-mac"
-                                class='h-full object-cover block w-full '>
+                        <div class="bg-[url('/images/images/matt-connors-960.jpg')] bg-no-repeat bg-cover">
                         </div>
 
                         <div
                             class="  m-[-10px_10px_0px_10px]  relative  right-0 px-7 pt-1 flex flex-col justify-evenly  bg-white ">
-                            <h3 class=" border-b-2 pb-4 text-lg mt-4 text-center font-medium">Reflect on Lewisham’s
-                                hidden histories,
-                                uncovered as part of In Living Memory</h3>
+                            <h3 class=" border-b-2 pb-4 text-lg mt-4 text-center font-medium">Finding Aid, featuring new
+                                and existing paintings by Matt Connors and invited artists</h3>
                             <div class=" flex justify-between items-center ">
-                                <span class="hover:text-red-600   text-sm text-light-bluee py-4">In Living Memory</span>
+                                <span class="hover:text-red-600   text-sm text-light-bluee py-4">Goldsmiths CCA</span>
                                 <img src="./images/images/icon-more-666.svg" alt="arrow-right" class="">
                             </div>
                         </div>
                     </div>
-                    <div class="grid grid-rows-2  ">
-                        <div class="">
-                            <img src="./images/images/Untitled-1_0001_DSC07057.jpg" alt="annie-mac"
-                                class="object-cover block h-full">
+                    <div class="grid grid-rows-2">
+                        <div class="bg-[url('/images/images/Untitled-1_0001_DSC07057.jpg')] bg-no-repeat bg-cover ">
                         </div>
 
                         <div
                             class=" px-7  m-[-10px_10px_0px_10px]  relative   pt-1  flex flex-col justify-evenly   bg-white">
-                            <h3 class="text-lg mt-4 border-b-2 pb-4 text-center font-medium">Join our alumni community
-                                for exclusive
-                                benefits and opportunities</h3>
+                            <h3 class="text-lg mt-4 border-b-2 pb-4 text-center font-medium">Reflect on Lewisham’s
+                                hidden histories, uncovered as part of In Living Memory</h3>
                             <div class=" flex justify-between items-center ">
-                                <span class="text-sm text-light-blue py-4">Keep in touch</span>
+                                <span class="text-sm text-light-bluee py-4">In Living Memory</span>
                                 <img src="./images/images/icon-more-666.svg" alt="arrow-right" class="">
                             </div>
                         </div>
                     </div>
-                    <div class="sm:col-span-2 relative ">
-                        <div class="">
-                            <img src="./images/images/Class-of-2016_-Graduation-2016_10686-s.jpg" alt="annie-mac"
-                                class="object-contain w-full">
-                        </div>
-
-                        <div class="sm:absolute bottom-0 right-0 px-7 pt-1 sm:w-1/2 bg-white">
+                    <div
+                        class="sm:col-span-2 relative bg-[url('/images/images/Class-of-2016_-Graduation-2016_10686-s.jpg')]  overflow-hidden bg-no-repeat bg-cover ">
+                        <div class="sm:absolute bottom-5 right-0 px-7 pt-1 sm:w-1/2 bg-white">
                             <h3 class="border-b-2 pb-4 text-lg mt-4 text-center font-medium">Join our alumni community
                                 for exclusive benefits and opportunities</h3>
                             <div class=" flex justify-between items-center ">
@@ -277,7 +258,105 @@
                     </div>
                 </div>
             </div>
+
+            <div class="grid sm:grid-cols-2 gap-6 bg-white mt-10 sm:px-12 pt-16">
+
+                <div class="sm:grid sm:grid-cols-2 gap-6 ">
+                    <h2 class="col-span-2 text-center text-2xl font-medium ">News</h2>
+                    <div class="col-span-1 grid grid-rows-3 mb-5">
+                        <div class="bg-[url('/images/images/Siddhesh-edit.jpg')] row-span-2   bg-no-repeat bg-cover ">
+                        </div>
+                        <div class="row-span-1">
+                            <h3 class="text-base text-blue-600 text-center mt-5 mb-2">Scholar awarded prestigious
+                                grant for research in India </h3>
+                            <span class='text-gray-500 text-center block text-sm '>18 Apr 2024</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-span-1 grid grid-rows-3 mb-5">
+                        <div class="bg-[url('/images/images/Jane-Dabate-edit.jpg')] row-span-2 bg-no-repeat bg-cover">
+                        </div>
+                        <div class="row-span-1">
+                            <h3 class="text-base text-blue-600 text-center mt-5 mb-2">Jane Dabate wins Pat Kavanagh
+                                Prize 2024 </h3>
+                            <span class='text-gray-500 text-center block text-sm '>18 Apr 2024</span>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="sm:grid sm:grid-cols-2 gap-6  ">
+                    <h2 class="col-span-2 text-center text-2xl font-medium">Events</h2>
+                    <div class="col-span-1 grid grid-rows-3 mb-5">
+                        <div
+                            class="bg-[url('https://www.gold.ac.uk/apps/events/image.php?id=14988')] row-span-2  bg-no-repeat bg-cover">
+
+                        </div>
+                        <div class="row-span-1">
+                            <h3 class="text-base text-blue-600 text-center mt-5 mb-2">LGBTQ+ Positive Voices @
+                                Goldsmiths Exhibition </h3>
+                            <span class="span-btn">Exhibition</span>
+                            <span class='text-gray-500 text-center block text-sm '>7 May 2024, 10:00am ‐
+                                5:00pm</span>
+                        </div>
+
+                    </div>
+
+                    <div class="col-span-1 grid grid-rows-3 mb-5">
+                        <div
+                            class="bg-[url('https://www.gold.ac.uk/apps/events/image.php?id=14991')] row-span-2 bg-no-repeat bg-cover">
+                        </div>
+                        <div class="row-span-1">
+                            <h3 class="text-base text-blue-600 text-center mt-5 mb-2">Computer Science & Business
+                                Computing Degree Show
+
+                            </h3>
+                            <span class="span-btn">Degree Shows</span>
+                            <span class='text-gray-500 text-center block text-sm '>7 May 2024, 12:00pm ‐
+                                4:00pm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
+
+        <footer class="sm:grid sm:grid-col-2">
+            <div class="bg-dark-gray col-span-2 sm:grid sm:grid-cols-9 text-light-gray text-center py-10">
+                <div class=" sm:col-span-6 place-items-start grid grid-cols-2 ">
+                    <div class=" text-left">
+                        <a href="#" class="hover:text-white block ">About us</a>
+                        <a href="#" class="hover:text-white block">Contact us<a>
+                                <a href="#" class="hover:text-white block ">Find us</a>
+                                <a href="#" class="hover:text-white  ">Jobs</a>
+                    </div>
+
+                    <div class="text-left">
+                        <a href="#" class="hover:text-white block">Accessibility statement</a>
+                        <a href="#" class="hover:text-white block ">Cookie use</a>
+                        <a href="#" class="hover:text-white block">Copyright and disclaimer</a>
+                        <a href="#" class="hover:text-white block ">Slavery and human trafficking statement</a>
+                    </div>
+
+                </div>
+
+                <div class="sm:col-span-1">
+                    <ul>
+                        <li>Admin login</li>
+                    </ul>
+                </div>
+                <div class="sm:col-span-2">
+                    <ul>
+                        <li>Admin login</li>
+                    </ul>
+                </div>
+                <div class="mt-5 col-span-2">
+                    <p>&copy; 2024 Goldsmiths, University of London.</p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
